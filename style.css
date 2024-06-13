@@ -1,0 +1,33 @@
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+nav ul {
+    display: flex;
+    gap: 20px;
+    font-size: 28px;
+}
+nav ul li {
+    list-style: none;
+    color: black;
+}
+nav ul li a {
+   text-decoration: none;
+    color: black;
+}
+nav img {
+    width:50px;
+    cursor: pointer;
+}
+.dark-mode{
+    background: black;
+    color: white;
+}
+.dark-mode nav ul li a{
+    background: black;
+    color: white;
+}
